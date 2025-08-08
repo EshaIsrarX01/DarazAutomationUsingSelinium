@@ -35,8 +35,8 @@ public class SearchResultPage {
     }
     
     public void selectFreeShipping(String shippmentName) {
-        WebElement shippment = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[contains(.,'" + shippmentName + "')]")));
-        shippment.click();
+    WebElement shippment = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[./span[contains(.,'" + shippmentName + "')]]")));
+    shippment.click();
     }
 
     public int getProductCount() {
