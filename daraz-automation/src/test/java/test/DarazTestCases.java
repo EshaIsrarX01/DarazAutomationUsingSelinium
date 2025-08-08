@@ -18,7 +18,7 @@ public class DarazTestCases extends BaseTest {
         searchResultPage.selectBrand("speedx");
         searchResultPage.applyPriceRangeFilter("500", "5000");
         //searchResultPage.selectFreeShippingFilter();
-        searchResultPage.selectBrand("Free Delivery");
+        searchResultPage.selectFreeShipping("Free Delivery");
 
         int count = searchResultPage.getProductCount();
         System.out.println("Product count after applying all filters: " + count);
