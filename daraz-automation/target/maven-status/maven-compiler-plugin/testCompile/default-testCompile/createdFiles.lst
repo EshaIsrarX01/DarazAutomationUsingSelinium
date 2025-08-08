@@ -1,0 +1,5 @@
+base\BaseTest.class
+pages\SearchResultPage.class
+pages\ProductPage.class
+test\DarazTestCases.class
+pages\HomePage.class
